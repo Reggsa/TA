@@ -17,7 +17,7 @@ public class Task implements Cloneable {
 	public Task() {}
 	
    /**
-	* call setTitle method
+	* call setTitle method 
 	* call setTime method
 	* @param title $title variable initialization
 	* @param time $time variable initialization
