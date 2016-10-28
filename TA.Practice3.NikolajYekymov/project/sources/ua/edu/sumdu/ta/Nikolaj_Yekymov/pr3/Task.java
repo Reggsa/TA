@@ -14,8 +14,6 @@ public class Task implements Cloneable {
 	private boolean $isActive,$isRepeated;
 	private int $time, $start, $end, $repeat;
 	
-	public Task() {}
-	
        /**
 	* call setTitle method 
 	* call setTime method
@@ -39,6 +37,8 @@ public class Task implements Cloneable {
 		this.setTitle(title);
 		this.setTime(start, end, repeat);
 	}
+	
+	public Task() {}
 	
        /**
 	* @return value of $title variable
