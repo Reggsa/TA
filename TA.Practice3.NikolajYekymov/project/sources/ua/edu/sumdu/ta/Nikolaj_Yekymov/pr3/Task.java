@@ -14,7 +14,9 @@ public class Task implements Cloneable {
 	private boolean $isActive,$isRepeated;
 	private int $time, $start, $end, $repeat;
 	
-       /**
+	public Task() {}
+	
+   /**
 	* call setTitle method 
 	* call setTime method
 	* @param title $title variable initialization
@@ -25,7 +27,7 @@ public class Task implements Cloneable {
 		this.setTime(time);
 	}
 	
-       /**
+   /**
 	* call setTitle method
 	* call setTime method
 	* @param title $title variable initialization
@@ -38,16 +40,14 @@ public class Task implements Cloneable {
 		this.setTime(start, end, repeat);
 	}
 	
-	public Task() {}
-	
-       /**
+   /**
 	* @return value of $title variable
 	*/
 	public String getTitle() {
 		return $title;
 	}
 	
-       /**
+   /**
 	* @param title $title variable initialization
 	*/
 	public void setTitle(String title) {
@@ -58,7 +58,7 @@ public class Task implements Cloneable {
 		}
 	}
 	
-       /**
+   /**
 	* @return value of $isActive variable
 	* $isActive - status of the Task(active / inactive)
 	*/	
